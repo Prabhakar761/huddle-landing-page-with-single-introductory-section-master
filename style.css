@@ -1,0 +1,99 @@
+body{
+    background-color: #7743DB;
+    margin: 0;
+    padding: 0;
+}
+
+.Front-image{
+    display: flex;
+    align-items: center;
+    margin-top: 179px;
+    /* margin-bottom: 100px; */
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    z-index: 1;
+}
+
+.back-image{
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+.web{
+    width: 114%;
+    margin-top: -4%;
+}
+
+.text{
+    margin-bottom: 5%;
+    margin-top: -7%;
+    margin-left: 13%;
+    text-align: left;
+}
+
+.heading{
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 2%;
+
+}
+
+.content{
+    font-family: 'Montserrat';
+    color: white;
+    line-height: 1.5;
+}
+
+.monitor{
+    width: 118%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.back{
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    margin-top: 1%;
+    border-radius: 50px;
+    padding: 8px 60px 8px 60px;
+    background-color: white;
+    color: #7743DB;
+    border-color: none !important;
+    font-family: 'Montserrat';
+}
+
+.brands{
+    position: absolute;
+    margin-left: 1286px;
+    margin-top: -33px;
+    display: flex;
+    gap: 38px;
+}
+
+.brand-image{
+    font-size: 30px;
+    color: white;
+}
+
+.brand-image:hover{
+    background-color: #FFABE1;
+
+}
+
+.btn:hover{
+    background-color: #FFABE1;
+    color: white;
+}
+
+.footer{
+    margin-top: 10px;
+}
